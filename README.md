@@ -2,7 +2,7 @@
 
 I’m a mathematician and adjunct math professor at Seattle University, transitioning into data science and AI/ML engineering with a focus on recommendation systems, music intelligence, and interpretable machine learning.
 
-The hardest part of any analysis is finding the right questions. I enjoy finding honest questions, making messy data usable, and building models that show how data hides answers to these questions.
+The hardest part of any analysis is to ask the right questions. I enjoy finding honest questions, making messy data usable, and building models that show how data hides answers to these questions.
 
 ## Featured Projects
 
