@@ -19,9 +19,9 @@ I cleaned and normalized noisy chord data, built harmonic n-gram representations
 
 ### [Deep Learning Song Recommender](https://github.com/juansalinas2/dl-song-recommender)
 **Main Question:** 
-> A content-based music recommender that learns audio embeddings for song similarity using listener-tag supervision.
+> Can an audio model learn musically meaningful similarity from the way listeners describe songs?
 
-A content-based music recommender that learns song similarity directly from audio.
+A content-based music recommender that learns audio embeddings for song similarity using listener-tag supervision.
 
 Using full-mix and stem spectrograms, we trained a late-fusion ResNet18 model with tag-informed supervision and contrastive learning, then evaluated recommendations with retrieval metrics and a user-facing web app.
 
