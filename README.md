@@ -7,7 +7,8 @@ The hardest part of any analysis is finding the right questions. I enjoy finding
 ## Featured Projects
 
 ### [Harmonic Trends](https://github.com/juansalinas2/harmonic-trends)
-**Main Question:** Can harmony be treated as a learnable vocabulary, then used to understand musical style, change over time, and recommend songs by how they move harmonically?
+**Main Question:** 
+> Can harmony be treated as a learnable vocabulary, then used to understand musical style, change over time, and recommend songs by how they move harmonically?
 
 A deep exploratory data analysis project that studies chord progressions as a musical language.
 
