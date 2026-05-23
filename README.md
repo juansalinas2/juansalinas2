@@ -7,11 +7,11 @@ The hardest part of any analysis is finding the right questions. I enjoy finding
 ## Featured Projects
 
 ### [Harmonic Trends](https://github.com/juansalinas2/harmonic-trends)
+**Main Question:** Can harmony be treated as a learnable vocabulary, then used to understand musical style, change over time, and recommend songs by how they move harmonically?
+
 A deep exploratory data analysis project that studies chord progressions as a musical language.
 
 I cleaned and normalized noisy chord data, built harmonic n-gram representations, stored analysis-ready tables in DuckDB, and used trend analysis, genre lift, embeddings, and conditional language modeling to study how harmony changes across time and style.
-
-**Main Question:** Can harmony be treated as a learnable vocabulary, then used to understand musical style, change over time, and recommend songs by how they move harmonically?
 
 **Highlights:** data cleaning, feature engineering, DuckDB, EDA, embeddings, interpretable analysis  
 **Demo:** [Harmonic Trends on Hugging Face](https://huggingface.co/spaces/juansalinas2/harmonic-trends)
