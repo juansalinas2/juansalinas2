@@ -1,8 +1,8 @@
-# Juan Salinas
+# Juan Salinas 
 
-I’m a mathematician transitioning into data science and AI/ML engineering.
+I’m a mathematician transitioning into data science and AI/ML engineering, with a focus on recommendation systems, music intelligence, and interpretable machine learning.
 
-My work usually starts with an original question, then turns messy data into something measurable, interpretable, and useful. I’m especially interested in recommendation systems, music intelligence, representation learning, and analytical pipelines that help surface real structure instead of just producing outputs.
+The hardest part of any analysis is finding the right questions. I enjoy finding honest questions, making messy data usable, and building models that show how data hides answers to these questions.
 
 ## Featured Projects
 
