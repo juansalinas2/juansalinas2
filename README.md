@@ -18,6 +18,9 @@ I cleaned and normalized noisy chord data, built harmonic n-gram representations
 **Demo:** [Harmonic Trends on Hugging Face](https://huggingface.co/spaces/juansalinas2/harmonic-trends)
 
 ### [Deep Learning Song Recommender](https://github.com/juansalinas2/dl-song-recommender)
+**Main Question:** 
+> Can an audio model learn musically meaningful similarity from the way listeners describe songs?
+
 A content-based music recommender that learns song similarity directly from audio.
 
 Using full-mix and stem spectrograms, we trained a late-fusion ResNet18 model with tag-informed supervision and contrastive learning, then evaluated recommendations with retrieval metrics and a user-facing web app.
