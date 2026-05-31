@@ -15,8 +15,8 @@ A deep exploratory data analysis project that studies chord progressions as a mu
 I cleaned and normalized noisy chord data, built harmonic n-gram representations, stored analysis-ready tables in DuckDB, and used trend analysis, genre lift, embeddings, and conditional language modeling to study how harmony changes across time and style.
 
 **Highlights:** data cleaning, feature engineering, DuckDB, EDA, embeddings, interpretable analysis  
-**Demo:** [Harmonic Trends Explorer](https://juansalinas2-harmonic-trends-explorer.hf.space)     
-**Dashboards:** [Harmonic Trends on Hugging Face](https://huggingface.co/spaces/juansalinas2/harmonic-trends)
+**App:** [Harmonic Trends Explorer](https://juansalinas2-harmonic-trends-explorer.hf.space)     
+**Interactive Dashboards:** [Harmonic Trends on Hugging Face](https://huggingface.co/spaces/juansalinas2/harmonic-trends)
 
 ### [Deep Learning Song Recommender](https://github.com/juansalinas2/dl-song-recommender)
 **Main Question:** 
