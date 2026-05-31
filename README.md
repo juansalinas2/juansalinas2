@@ -16,6 +16,7 @@ I cleaned and normalized noisy chord data, built harmonic n-gram representations
 
 **Highlights:** data cleaning, feature engineering, DuckDB, EDA, embeddings, interpretable analysis  
 **Demo:** [Harmonic Trends Explorer](https://juansalinas2-harmonic-trends-explorer.hf.space)
+
 **Dashboards:** [Harmonic Trends on Hugging Face](https://huggingface.co/spaces/juansalinas2/harmonic-trends)
 
 ### [Deep Learning Song Recommender](https://github.com/juansalinas2/dl-song-recommender)
