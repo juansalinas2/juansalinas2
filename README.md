@@ -32,7 +32,3 @@ Using full-mix and stem spectrograms, we trained a late-fusion ResNet18 model wi
 ## Skills
 
 Python, SQL, Pandas, NumPy, PyTorch, DuckDB, Jupyter, data cleaning, exploratory data analysis, machine learning, recommender systems, embeddings, statistics, and model evaluation.
-
-## Current Focus
-
-I’m looking for Data Scientist and AI/ML Engineer roles where I can bring mathematical thinking, careful analysis, and practical modeling to complex real-world data.
