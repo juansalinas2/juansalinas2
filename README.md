@@ -4,16 +4,20 @@ I’m a mathematician and adjunct math professor at Seattle University, transiti
 
 The hardest part of any analysis is to ask the right questions. I enjoy finding honest questions, making messy data usable, and building models that show how data hides answers to these questions.
 
-## Featured Projects
+## Featured Projects 
 
 ### [Olist Delivery Forecasting](https://github.com/juansalinas2/olist_analysis)
 
-> Can we provide a more accurate delivery estimate without making the customer promise unnecessarily conservative?
+**Main Question**
+> Can delivery dates be more accurate without making the customer promise unnecessarily conservative?
+> 
+`27.6% lower ETA error` · `18,603 test orders` · `98.7% U95 coverage`
 
-**Result:** 27.6% lower ETA error and 63.5% fewer late orders.  
-**Decision:** test the improved ETA internally, but keep Olist’s current customer promise.
+Built and evaluated purchase-time delivery forecasts using chronological validation and quantile regression.
 
-`Python` `scikit-learn` `Plotly`
+**Business decision:** Test the improved ETA internally, but retain Olist’s current customer promise until the alternative achieves comparable reliability without adding extra days.
+
+[View the analysis →](https://github.com/juansalinas2/olist_analysis)
 
 ### [Harmonic Trends](https://github.com/juansalinas2/harmonic-trends)
 **Main Question:** 
