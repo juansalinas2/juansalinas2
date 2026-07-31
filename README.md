@@ -6,6 +6,17 @@ The hardest part of any analysis is to ask the right questions. I enjoy finding 
 
 ## Featured Projects
 
+### [Reliable Delivery Promises for Olist](https://github.com/juansalinas2/olist_analysis)
+
+An end-to-end data science project predicting e-commerce delivery times and evaluating whether a new customer promise should replace Olist’s existing estimate.
+
+- Reduced delivery-time MAE by **27.6%**
+- Reduced late orders by **63.5%**
+- Found that the new promise was more reliable but **1.71 days longer**
+- Recommended shadowing the improved ETA while keeping Olist’s current promise
+
+[![Olist delivery-promise results](https://raw.githubusercontent.com/juansalinas2/olist_analysis/main/docs/assets/reliability_sharpness.png)](https://github.com/juansal
+
 ### [Harmonic Trends](https://github.com/juansalinas2/harmonic-trends)
 **Main Question:** 
 > Can harmony be treated as a learnable vocabulary, then used to understand musical style, change over time, and recommend songs by how they move harmonically?
