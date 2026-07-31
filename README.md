@@ -15,7 +15,9 @@ An end-to-end data science project predicting e-commerce delivery times and eval
 - Found that the new promise was more reliable but **1.71 days longer**
 - Recommended shadowing the improved ETA while keeping Olist’s current promise
 
-[![Olist delivery-promise results](https://raw.githubusercontent.com/juansalinas2/olist_analysis/main/docs/assets/reliability_sharpness.png)](https://github.com/juansal
+[![Olist delivery-promise results](https://raw.githubusercontent.com/juansalinas2/olist_analysis/main/docs/assets/reliability_sharpness.png)](https://github.com/juansalinas2/olist_analysis)
+
+**Tools:** Python, pandas, scikit-learn, Plotly, quantile regression
 
 ### [Harmonic Trends](https://github.com/juansalinas2/harmonic-trends)
 **Main Question:** 
