@@ -6,18 +6,14 @@ The hardest part of any analysis is to ask the right questions. I enjoy finding 
 
 ## Featured Projects
 
-### [Reliable Delivery Promises for Olist](https://github.com/juansalinas2/olist_analysis)
+### [Olist Delivery Forecasting](https://github.com/juansalinas2/olist_analysis)
 
-An end-to-end data science project predicting e-commerce delivery times and evaluating whether a new customer promise should replace Olist’s existing estimate.
+> Can we provide a more accurate delivery estimate without making the customer promise unnecessarily conservative?
 
-- Reduced delivery-time MAE by **27.6%**
-- Reduced late orders by **63.5%**
-- Found that the new promise was more reliable but **1.71 days longer**
-- Recommended shadowing the improved ETA while keeping Olist’s current promise
+**Result:** 27.6% lower ETA error and 63.5% fewer late orders.  
+**Decision:** test the improved ETA internally, but keep Olist’s current customer promise.
 
-[![Olist delivery-promise results](https://raw.githubusercontent.com/juansalinas2/olist_analysis/main/docs/assets/reliability_sharpness.png)](https://github.com/juansalinas2/olist_analysis)
-
-**Tools:** Python, pandas, scikit-learn, Plotly, quantile regression
+`Python` `scikit-learn` `Plotly`
 
 ### [Harmonic Trends](https://github.com/juansalinas2/harmonic-trends)
 **Main Question:** 
