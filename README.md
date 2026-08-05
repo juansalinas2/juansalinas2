@@ -37,7 +37,7 @@ A content-based music recommender that learns audio embeddings for song similari
 
 Using full-mix and stem spectrograms, we trained a late-fusion ResNet18 model with tag-informed supervision and contrastive learning, then evaluated recommendations with retrieval metrics and a user-facing web app.
  
-[View project]([https://github.com/juansalinas2/olist_analysis](https://github.com/juansalinas2/dl-song-recommender)) ·[Try the web app!](https://github.com/juansalinas2/dl-song-recommender) 
+[View project](https://github.com/juansalinas2/olist_analysis](https://github.com/juansalinas2/dl-song-recommender) · [Try the web app!](https://github.com/juansalinas2/dl-song-recommender) 
 
 ## Skills
 
