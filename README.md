@@ -1,6 +1,6 @@
 # Juan Salinas 
 
-I’m a data scientist focused on recommendation systems, music intelligence, and interpretable machine learning. I earned my Ph.D. in Mathematics from the University of Washington under Max Lieblich, specializing in algebraic geometry. My thesis studied [representations of configurations](https://drive.google.com/file/d/1GAHcc34xd7MJDQTr0NjYAM9humm89cNt/view).
+Product-minded data scientist and PhD mathematician building forecasting, experimentation, and recommendation systems. I earned my Ph.D. in Mathematics from the University of Washington under Max Lieblich, specializing in algebraic geometry. My thesis studied [representations of configurations](https://drive.google.com/file/d/1GAHcc34xd7MJDQTr0NjYAM9humm89cNt/view).
 
 The hardest part of any analysis is to ask the right questions. I enjoy finding honest questions, making messy data usable, and building models that show how data hides answers to these questions.
 
