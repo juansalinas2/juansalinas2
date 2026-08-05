@@ -35,7 +35,7 @@ Built an end-to-end music data project that cleans and standardizes noisy chord 
 **Main Question:** 
 > Can listener descriptions teach an audio model which songs sound musically similar?
 
-Built a content-based recommender that learns song embeddings from listener tags and audio. The model combines full-mix and instrument-stem spectrograms using a late-fusion ResNet18, contrastive learning, and tag-informed supervision. I evaluated recommendation quality with retrieval metrics and built a web interface for exploring similar songs.
+Developed a content-based music recommendation system that learns song embeddings from listener tags and audio. I led the deep learning implementation in PyTorch, training a late-fusion ResNet18 on full-mix and instrument-stem spectrograms using contrastive learning with tag-informed supervision, and the deployment of the web app. We evaluated retrieval performance using ranking metrics and built an interactive web application for exploring learned song similarities.
 
-[View project](https://github.com/juansalinas2/dl-song-recommender) · [Try the Webapp!](https://dl-song-recommender.onrender.com)
+[View project](https://github.com/juansalinas2/dl-song-recommender) · [Try the web app!](https://dl-song-recommender.onrender.com)
  
