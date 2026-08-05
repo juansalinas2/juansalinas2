@@ -38,7 +38,4 @@ Built an end-to-end music data project that cleans and standardizes noisy chord 
 Built a content-based recommender that learns song embeddings from listener tags and audio. The model combines full-mix and instrument-stem spectrograms using a late-fusion ResNet18, contrastive learning, and tag-informed supervision. I evaluated recommendation quality with retrieval metrics and built a web interface for exploring similar songs.
 
 [View project](https://github.com/juansalinas2/dl-song-recommender) · [View the web app](https://github.com/juansalinas2/dl-song-recommender)
-
-## Skills
-
-Python, SQL, Pandas, NumPy, PyTorch, DuckDB, Jupyter, data cleaning, exploratory data analysis, machine learning, recommender systems, embeddings, statistics, and model evaluation.
+ 
