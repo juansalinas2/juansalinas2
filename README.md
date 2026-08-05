@@ -13,11 +13,11 @@ The hardest part of any analysis is to ask the right questions. I enjoy finding 
 > 
 `27.6% lower ETA error` · `18,603 test orders` · `98.7% U95 coverage`
 
-Built and evaluated purchase-time delivery forecasts using chronological validation and quantile regression.
+Built a purchase-time forecasting pipeline using chronological validation and quantile regression. On 18,603 test orders, the median ETA reduced error by **27.6%** (5.03 → 3.64 days). The conservative promise reached **98.68% reliability**, but was **1.71 days longer** than Olist’s.
 
-**Business decision:** Test the improved ETA internally, but retain Olist’s current customer promise until the alternative achieves comparable reliability without adding extra days.
+**Decision:** shadow-test the improved ETA, but do not launch the longer customer promise until calibration improves.
 
-[View the analysis →](https://github.com/juansalinas2/olist_analysis)
+[View project](https://github.com/juansalinas2/olist_analysis) · [Tableau dashboard](https://public.tableau.com/app/profile/juan.salinas7316/viz/OlistDeliveryPromiseDecisionDashboard/ExecutiveDecisionDashboard)
 
 ### [Harmonic Trends](https://github.com/juansalinas2/harmonic-trends)
 **Main Question:** 
