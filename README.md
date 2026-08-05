@@ -39,7 +39,7 @@ Built an end-to-end music data project that cleans and standardizes noisy chord 
 >
 `11,239 songs` · `64-dimensional audio embeddings` · `live uploaded-audio demo`
 
-Developed a content-based music recommendation system that learns song embeddings from listener tags and audio. I led the deep learning implementation in PyTorch, training a late-fusion ResNet18 on full-mix and instrument-stem spectrograms using contrastive learning with tag-informed supervision, and the deployment of the web app. We evaluated retrieval performance using ranking metrics and built an interactive web application for exploring learned song similarities.
+Co-developed a content-based music recommendation system that learns song embeddings from listener tags and audio. I led the deep learning implementation in PyTorch, training a late-fusion ResNet18 on full-mix and instrument-stem spectrograms using contrastive learning with tag-informed supervision, and the deployment of the web app. We evaluated retrieval performance using ranking metrics and built an interactive web application for exploring learned song similarities.
 
 [View project](https://github.com/juansalinas2/dl-song-recommender) · [Try the web app!](https://dl-song-recommender.onrender.com)
  
