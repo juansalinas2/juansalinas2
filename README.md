@@ -1,6 +1,6 @@
 # Juan Salinas 
 
-I’m a data scientist with a focus on recommendation systems, music intelligence, and interpretable machine learning. I received my Ph.D. in Mathematics from the University of Washington under Max Lieblich, where I specialized in algebraic geometry. My thesis was on [representations of configurations.](https://drive.google.com/file/d/1GAHcc34xd7MJDQTr0NjYAM9humm89cNt/view)
+I’m a data scientist focused on recommendation systems, music intelligence, and interpretable machine learning. I earned my Ph.D. in Mathematics from the University of Washington under Max Lieblich, specializing in algebraic geometry. My thesis studied [representations of configurations](https://drive.google.com/file/d/1GAHcc34xd7MJDQTr0NjYAM9humm89cNt/view).
 
 The hardest part of any analysis is to ask the right questions. I enjoy finding honest questions, making messy data usable, and building models that show how data hides answers to these questions.
 
@@ -19,25 +19,25 @@ Built a purchase-time forecasting pipeline using chronological validation and qu
 
 [View project](https://github.com/juansalinas2/olist_analysis) · [Tableau dashboard](https://public.tableau.com/app/profile/juan.salinas7316/viz/OlistDeliveryPromiseDecisionDashboard/ExecutiveDecisionDashboard)
 
+---
+
 ### [Harmonic Trends](https://github.com/juansalinas2/harmonic-trends)
 **Main Question:** 
 > Can harmony be treated as a learnable vocabulary, then used to understand musical style, change over time, and recommend songs by how they move harmonically?
 
-A deep exploratory data analysis project that studies chord progressions as a musical language.
+Built an end-to-end music data project that cleans and standardizes noisy chord data, stores analysis-ready tables in DuckDB, and represents harmony using n-grams, embeddings, and sequence models. The analysis explores genre-specific patterns, historical trends, and recommendations based on harmonic movement.
 
-I cleaned and normalized noisy chord data, built harmonic n-gram representations, stored analysis-ready tables in DuckDB, and used trend analysis, genre lift, embeddings, and conditional language modeling to study how harmony changes across time and style.
+[View project](https://github.com/juansalinas2/harmonic-trends) · [Explore the interactive dashboards](https://huggingface.co/spaces/juansalinas2/harmonic-trends)
 
-[View project](https://github.com/juansalinas2/harmonic-trends) · [Interactive Dashboards](https://huggingface.co/spaces/juansalinas2/harmonic-trends)
+---
 
 ### [Deep Learning Song Recommender](https://github.com/juansalinas2/dl-song-recommender)
 **Main Question:** 
-> Can an audio model learn musically meaningful similarity from the way listeners describe songs?
+> Can listener descriptions teach an audio model which songs sound musically similar?
 
-A content-based music recommender that learns audio embeddings for song similarity using listener-tag supervision.
+Built a content-based recommender that learns song embeddings from listener tags and audio. The model combines full-mix and instrument-stem spectrograms using a late-fusion ResNet18, contrastive learning, and tag-informed supervision. I evaluated recommendation quality with retrieval metrics and built a web interface for exploring similar songs.
 
-Using full-mix and stem spectrograms, we trained a late-fusion ResNet18 model with tag-informed supervision and contrastive learning, then evaluated recommendations with retrieval metrics and a user-facing web app.
- 
-[View project](https://github.com/juansalinas2/dl-song-recommender) · [Try the web app!](https://github.com/juansalinas2/dl-song-recommender) 
+[View project](https://github.com/juansalinas2/dl-song-recommender) · [View the web app](https://github.com/juansalinas2/dl-song-recommender)
 
 ## Skills
 
