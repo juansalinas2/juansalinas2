@@ -29,7 +29,8 @@ I cleaned and normalized noisy chord data, built harmonic n-gram representations
 
 **Highlights:** data cleaning, feature engineering, DuckDB, EDA, embeddings, interpretable analysis  
 **App:** [Harmonic Trends Explorer](https://juansalinas2-harmonic-trends-explorer.hf.space)     
-**Interactive Dashboards:** [Harmonic Trends on Hugging Face](https://huggingface.co/spaces/juansalinas2/harmonic-trends)
+
+[View project]([https://github.com/juansalinas2/olist_analysis](https://github.com/juansalinas2/harmonic-trends)) ·[Interactive Dashboards](https://github.com/juansalinas2/olist_analysis](https://huggingface.co/spaces/juansalinas2/harmonic-trends) 
 
 ### [Deep Learning Song Recommender](https://github.com/juansalinas2/dl-song-recommender)
 **Main Question:** 
@@ -38,9 +39,10 @@ I cleaned and normalized noisy chord data, built harmonic n-gram representations
 A content-based music recommender that learns audio embeddings for song similarity using listener-tag supervision.
 
 Using full-mix and stem spectrograms, we trained a late-fusion ResNet18 model with tag-informed supervision and contrastive learning, then evaluated recommendations with retrieval metrics and a user-facing web app.
-
+ 
 **Highlights:** PyTorch, audio ML, recommender systems, representation learning, model evaluation  
 **App:** [Deep Learning Song Recommender](https://dl-song-recommender.onrender.com)
+[View project]([https://github.com/juansalinas2/olist_analysis](https://github.com/juansalinas2/dl-song-recommender)) ·[Try the web app!](https://github.com/juansalinas2/dl-song-recommender) 
 
 ## Skills
 
