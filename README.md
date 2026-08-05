@@ -8,7 +8,7 @@ The hardest part of any analysis is to ask the right questions. I enjoy finding 
 
 ### [Olist Delivery Forecasting](https://github.com/juansalinas2/olist_analysis)
 
-**Main Question**
+**Main Question:**
 > Can delivery dates be more accurate without making the customer promise unnecessarily conservative?
 > 
 `27.6% lower ETA error` · `18,603 test orders` · `98.7% U95 coverage`
