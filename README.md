@@ -43,3 +43,7 @@ Co-developed a content-based music recommendation system that learns song embedd
 
 [View project](https://github.com/juansalinas2/dl-song-recommender) · [Try the web app!](https://dl-song-recommender.onrender.com)
  
+
+## Teaching
+
+[Calculus notes](https://juansalinas2.github.io/Math-1334---Calculus/) — My introductory calculus lectures, with worked examples, original PDFs, and interactive supplements.
