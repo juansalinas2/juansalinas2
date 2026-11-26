@@ -42,6 +42,6 @@ Co-developed a content-based music recommendation system that learns song embedd
 
 ## Teaching
 
-I teach math at Seattle University. For a look at my Calculus I class, see the [course notes](https://juansalinas2.github.io/Math-1334---Calculus/) and [concept map](https://juansalinas2.github.io/Math-1334---Calculus/map/).
+I currently teach math at Seattle University. My [Calculus I notes](https://juansalinas2.github.io/Math-1334---Calculus/) include worked examples and a [concept map](https://juansalinas2.github.io/Math-1334---Calculus/map/) that shows how the topics connect. I’m using AWS Lambda and Amazon Bedrock to build a RAG system that answers students’ questions in real time using the section they’re reading.
 
 Try this game to test your calculus chops! [*Critical Point*](https://juansalinas2.github.io/Math-1334---Calculus/map/challenge.html).
