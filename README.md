@@ -6,12 +6,9 @@ Product-minded data scientist and PhD mathematician building forecasting, experi
 
 ### [Olist Delivery Forecasting](https://github.com/juansalinas2/olist_analysis)
 
-**Main Question:**
-> Can delivery dates be more accurate without making the customer promise unnecessarily conservative?
+**Decision:** I recommended shadow-testing the new delivery estimate and keeping Olist’s existing customer promise.
 
-Built a purchase-time forecasting pipeline using chronological validation and quantile regression. Compared with a constant median-duration baseline, the Q50 model reduced MAE by 27.6% (5.03 → 3.64 days) on 18,603 chronological test orders. The conservative promise reached **98.68% reliability**, but was **1.71 days longer** than Olist’s.
-
-**Decision:** shadow-test the improved ETA, but do not launch the longer customer promise until calibration improves.
+Across 18,603 test orders, the model cut mean absolute error from 5.03 to 3.64 days compared with a constant median estimate. The conservative forecast covered 98.68% of deliveries, but it would have moved the promised date back by 1.71 days on average.
 
 [Tableau dashboard](https://public.tableau.com/app/profile/juan.salinas7316/viz/OlistDeliveryPromiseDecisionDashboard/ExecutiveDecisionDashboard)
 
@@ -20,10 +17,8 @@ Built a purchase-time forecasting pipeline using chronological validation and qu
 ### [Harmonic Trends](https://github.com/juansalinas2/harmonic-trends)
 **Main Question:** 
 > How do chord progressions vary by genre and decade? Can we use them to recommend songs?
->
-`679,807 songs` · `artist-held-out benchmark` · `67M indexed feature rows`
 
-Built an end-to-end music data project that cleans and standardizes noisy chord data, stores analysis-ready tables in DuckDB, and represents harmony using n-grams, embeddings, and sequence models. The analysis explores genre-specific patterns, historical trends, and recommendations based on harmonic movement.
+I analyzed chord progressions from 679,807 songs and tested whether their patterns could predict genre and decade for artists held out of training. Pick a progression in the dashboard and see which chord tends to come next in jazz, soul, or country.
 
 [Explore the interactive dashboards](https://huggingface.co/spaces/juansalinas2/harmonic-trends)
 
@@ -32,10 +27,8 @@ Built an end-to-end music data project that cleans and standardizes noisy chord 
 ### [Deep Learning Song Recommender](https://github.com/juansalinas2/dl-song-recommender)
 **Main Question:** 
 > Can listener descriptions teach an audio model which songs sound musically similar?
->
-`11,239 songs` · `64-dimensional audio embeddings` · `live uploaded-audio demo`
 
-Co-developed a content-based music recommendation system that learns song embeddings from listener tags and audio. I led the deep learning implementation in PyTorch, training a late-fusion ResNet18 on full-mix and instrument-stem spectrograms using contrastive learning with tag-informed supervision, and the deployment of the web app. We evaluated retrieval performance using ranking metrics and built an interactive web application for exploring learned song similarities.
+Our team built an audio recommender using 11,239 songs. I led the PyTorch model development and deployed the web app. On our tag-based benchmark, the audio model achieved **70.2% precision@5**, compared with **38.3%** for the tag-embedding baseline.
 
 [Try the web app!](https://dl-song-recommender.onrender.com)
  
