@@ -2,34 +2,30 @@
 
 Product-minded data scientist and PhD mathematician building forecasting, experimentation, and recommendation systems. I earned my Ph.D. in Mathematics from the University of Washington under Max Lieblich, specializing in algebraic geometry. My thesis studied [representations of configurations](https://drive.google.com/file/d/1GAHcc34xd7MJDQTr0NjYAM9humm89cNt/view).
 
-The hardest part of any analysis is to ask the right questions. I enjoy finding honest questions, making messy data usable, and building models that show how data hides answers to these questions.
-
 ## Featured Projects 
 
 ### [Olist Delivery Forecasting](https://github.com/juansalinas2/olist_analysis)
 
 **Main Question:**
 > Can delivery dates be more accurate without making the customer promise unnecessarily conservative?
-> 
-`27.6% lower MAE vs. constant baseline` · `18,603 chronological test orders` · `98.7% reliable, but +1.71 days longer` 
 
 Built a purchase-time forecasting pipeline using chronological validation and quantile regression. Compared with a constant median-duration baseline, the Q50 model reduced MAE by 27.6% (5.03 → 3.64 days) on 18,603 chronological test orders. The conservative promise reached **98.68% reliability**, but was **1.71 days longer** than Olist’s.
 
 **Decision:** shadow-test the improved ETA, but do not launch the longer customer promise until calibration improves.
 
-[View project](https://github.com/juansalinas2/olist_analysis) · [Tableau dashboard](https://public.tableau.com/app/profile/juan.salinas7316/viz/OlistDeliveryPromiseDecisionDashboard/ExecutiveDecisionDashboard)
+[Tableau dashboard](https://public.tableau.com/app/profile/juan.salinas7316/viz/OlistDeliveryPromiseDecisionDashboard/ExecutiveDecisionDashboard)
 
 ---
 
 ### [Harmonic Trends](https://github.com/juansalinas2/harmonic-trends)
 **Main Question:** 
-> Can harmony be treated as a learnable vocabulary, then used to understand musical style, change over time, and recommend songs by how they move harmonically?
+> How do chord progressions vary by genre and decade? Can we use them to recommend songs?
 >
 `679,807 songs` · `artist-held-out benchmark` · `67M indexed feature rows`
 
 Built an end-to-end music data project that cleans and standardizes noisy chord data, stores analysis-ready tables in DuckDB, and represents harmony using n-grams, embeddings, and sequence models. The analysis explores genre-specific patterns, historical trends, and recommendations based on harmonic movement.
 
-[View project](https://github.com/juansalinas2/harmonic-trends) · [Explore the interactive dashboards](https://huggingface.co/spaces/juansalinas2/harmonic-trends)
+[Explore the interactive dashboards](https://huggingface.co/spaces/juansalinas2/harmonic-trends)
 
 ---
 
@@ -41,9 +37,11 @@ Built an end-to-end music data project that cleans and standardizes noisy chord 
 
 Co-developed a content-based music recommendation system that learns song embeddings from listener tags and audio. I led the deep learning implementation in PyTorch, training a late-fusion ResNet18 on full-mix and instrument-stem spectrograms using contrastive learning with tag-informed supervision, and the deployment of the web app. We evaluated retrieval performance using ranking metrics and built an interactive web application for exploring learned song similarities.
 
-[View project](https://github.com/juansalinas2/dl-song-recommender) · [Try the web app!](https://dl-song-recommender.onrender.com)
+[Try the web app!](https://dl-song-recommender.onrender.com)
  
 
 ## Teaching
 
-[Calculus notes](https://juansalinas2.github.io/Math-1334---Calculus/) — My introductory calculus lectures, with worked examples, original PDFs, and interactive supplements.
+I teach math at Seattle University. For a look at my Calculus I class, see the [course notes](https://juansalinas2.github.io/Math-1334---Calculus/) and [concept map](https://juansalinas2.github.io/Math-1334---Calculus/map/).
+
+Try this game to test your calculus chops! [*Critical Point*](https://juansalinas2.github.io/Math-1334---Calculus/map/challenge.html).
